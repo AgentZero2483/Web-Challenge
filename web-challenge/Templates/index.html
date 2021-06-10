@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web-Design Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Static/style.css" media="screen" type="text/css">
+</head>
+  
+
+
+<html>
+
+<body>
+    <!--Navigation Bar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Web-Design Challenge</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Visuals
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/Templates/Visuals/cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="/Templates/Visuals/humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="/Templates/Visuals/max_temp.html">Maximum Temperature</a>
+                    <a class="dropdown-item" href="/Templates/Visuals/wind_speed.html">Wind Speeds</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Summary</h5>
+                        <img src="../Resources/assets/heatminer-sea-temperature-1.jpg" alt="" width='65%' height='100%' align='left' style='margin: 0px 20px 20px 0px'>
+                        <p>
+                            The purpose of this project was to analyze different weather properties in relation to latitude.
+                            The dataset used in this project derive from a previous project where I was tasked with randomly generating over 500 latitudes, finding the nearest city, and then pulling weather data from the OpenWeatherAPI by latitude.
+                        </p>
+                        <p>
+                            All analysis and graphing in this project was performed using Matplotlib, Pandas and Numpy. 
+                            Elements of the weather studied in this project include maximum temperature, cloudiness, humidity, and wind speed. 
+                            This site contains all the visualizations created, as well the dataset used.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Visualizations</h5>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 col-md-6">
+                                    <a href="/Templates/Visuals/cloudiness.html"><img src="../Resources/assets/Lat_vs_Cloud.png" alt="" class="img-thumbnail"></a>
+                                </div>
+                                <div class="col-3 col-md-6">
+                                    <a href="/Templates/Visuals/humidity.html"><img src="../Resources/assets/Lat_vs_Humidity.png" alt="" class="img-thumbnail"></a>
+                                </div>
+
+                            
+                                <div class="col-3 col-md-6">
+                                    <a href="/Templates/Visuals/max_temp.html"><img src="../Resources/assets/Lat_vs_Temp.png" alt="" class="img-thumbnail"></a>
+                                </div>
+                                <div class="col-3 col-md-6">
+                                    <a href="/Templates/Visuals/wind_speed.html"><img src="../Resources/assets/lat_vs_wind.png" alt="" class="img-thumbnail"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+
+</html>
